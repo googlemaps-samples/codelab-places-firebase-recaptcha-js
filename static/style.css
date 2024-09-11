@@ -1,0 +1,78 @@
+/* General Styling for the Map Application */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+/* Map Container */
+#map {
+height: 100vh; /* Full viewport height */
+}
+
+/* Hide reCAPTCHA Badge (optional) */
+/* .grecaptcha-badge { visibility: hidden !important; } */
+
+/* Marker Labels */
+.label {
+z-index: 10;    /* Ensure labels are above other elements */
+display: block !important; /* Force display */
+color: rgb(53, 55, 59);
+background: white;
+
+/* Styling */
+border-radius: 50px;
+padding: 0 6px;
+height: 23px;
+max-width: 150px;
+text-align: center;
+overflow: hidden;
+box-shadow: -1px 0px 7px 0px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+}
+
+/* Marker Label Triangle Pointer */
+.label::after {
+content: '';
+position: absolute;
+top: 21px;
+left: calc(50% - 8px); /* Center the triangle */
+width: 0;
+height: 0;
+border-top: solid 8px white;
+border-left: solid 8px transparent;
+border-right: solid 8px transparent;
+}
+
+/* Marker Label Dot */
+.label-dot {
+margin: auto;
+height: 8px;
+width: 8px;
+border: solid 1px white;
+border-radius: 50%;
+left: 50%;
+transform: translateY(50%);
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2); 
+}
+
+/* Icons within Labels */
+.icons {
+width: 10px;
+height: 10px;
+padding: 2px;
+transform: translateY(4px); /* Vertical alignment adjustment */
+border-radius: 10px;
+}
+
+
+/* Pretty Print for JSON Data */
+pre {
+overflow: scroll;
+background-color: ghostwhite;
+padding: 10px 20px;
+margin: 20px; 
+}
+.json-key { color: rgb(255, 66, 66); }   /* Red */
+.json-value { color: rgb(72, 179, 73); } /* Green */
+.json-string { color: rgb(93, 123, 231); } /* Blue */
+  

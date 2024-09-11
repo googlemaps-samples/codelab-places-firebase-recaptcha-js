@@ -1,0 +1,16 @@
+service: places-appcheck
+runtime: nodejs18
+handlers:
+- url: /
+  secure: always
+  static_files: static/index.html
+  upload: static/index.html
+
+- url: /api
+  script: server.js
+
+# - url: /(.*)
+#   secure: always
+#   static_files: www/\1
+#   upload: www/(.*)
+
