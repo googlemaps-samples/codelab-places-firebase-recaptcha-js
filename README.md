@@ -4,6 +4,7 @@ Secure your Web application with [Firebase AppCheck](https://firebase.google.com
 
 **Resources**
 - [Step by Step](https://codelabs.google.com/devsite/codelabs/maps-platform/places-firebase-appcheck)
+- [Codelabs](https://codelabs.developers.google.com/?product=googlemapsplatform)
 
 ## What you will learn
 - How to setup Firebase project and AppCheck feature
