@@ -1,37 +1,29 @@
-**Places API with Firebase AppCheck and reCAPTCHA**
+# Google Maps Platform 101: Places API with Firebase AppCheck and reCAPTCHA
 
+## Description
 Secure your Web application with [Firebase AppCheck](https://firebase.google.com/docs/app-check) and [reCAPTCHA](https://www.google.com/recaptcha/about/) JWT tokens before making requests to [Places API](https://developers.google.com/maps/documentation/places/web-service/op-overview). 
 
-**Resources**
-- [Step by Step](https://codelabs.google.com/devsite/codelabs/maps-platform/places-firebase-appcheck)
-- [Codelabs](https://codelabs.developers.google.com/?product=googlemapsplatform)
+![App screenshot](/screenshot.png)
 
-## What you will learn
-- How to setup Firebase project and AppCheck feature
-- How to setup reCAPTCHA and pair it with Firebase
-- How to use Firebase and reCAPTCHA configuration details in a sample Application
-- How to run the server and verify reCAPTCHA token before making requests to Places API 
-- How to display Nearby Places API response in a sample Application 
+## Getting Started
+To get started with the codelab, download or fork this repo and follow codelab instructions.
 
-## What you will need
-- A Google Cloud Platform Project
-- Maps Places API and Maps JavaScript API enabled
-- Firebase AppCheck configured
-- reCAPTCHA configured
-- Basic knowledge of HTML and CSS
-- Familiarity using JavaScript and Node.js
+## Terms of Service
 
-## License
-Copyright 2024 Google LLC
+This sample uses Google Maps Platform services, and any use of Google Maps Platform is subject to the [Terms of Service](https://cloud.google.com/maps-platform/terms).
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+This sample is not a Google Maps Platform Core Service. Therefore, the Google Maps Platform Terms of Service (e.g. Technical Support Services, Service Level Agreements, and Deprecation Policy) do not apply to the code in this sample.
 
-    https://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+## Support
+
+This sample is offered via an open source license. It is not governed by the Google Maps Platform Support [Technical Support Services Guidelines](https://cloud.google.com/maps-platform/terms/tssg), the [SLA](https://cloud.google.com/maps-platform/terms/sla), or the [Deprecation Policy](https://cloud.google.com/maps-platform/terms) (however, any Google Maps Platform services used by the sample remain subject to the Google Maps Platform Terms of Service).
+
+If you find a bug, or have a feature request, please [file an issue](https://github.com/googlemaps-samples/codelab-places-firebase-recaptcha-js/issues) on GitHub. If you would like to get answers to technical questions from other Google Maps Platform developers, ask through one of our [developer community channels](https://developers.google.com/maps/developer-community). If you'd like to contribute, please check the [Contributing guide](CONTRIBUTING.md).
+
+You can also discuss this sample on our [Discord server](https://discord.gg/hYsWbmk).
+
+[codelab]: https://developers.google.com/codelabs/maps-platform/places-firebase-appcheck
+[file an issue]: https://github.com/googlemaps-samples/codelab-places-firebase-recaptcha-js/issues
+[pull request]:  https://github.com/googlemaps-samples/codelab-places-firebase-recaptcha-js/compare
+[code of conduct]: CODE_OF_CONDUCT.md
