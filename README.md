@@ -6,7 +6,7 @@ Secure your Web application with [Firebase AppCheck](https://firebase.google.com
 ![App screenshot](/screenshot.png)
 
 ## Getting Started
-To get started with the codelab, download or fork this repo and follow codelab instructions.
+To get started with the codelab, download or fork this repo and follow [codelab instructions](https://codelabs.developers.google.com/devsite/codelabs/maps-platform/places-firebase-appcheck).
 
 ## Terms of Service
 
